@@ -1,7 +1,7 @@
-# 3D Ctrl World Model
+# iMaC
 
 This repository contains the training, preprocessing, and inference code for
-three CVPR 2026 World Model Track workflows:
+three iMaC workflows:
 
 1. RND-mix stage-one training and evaluation.
 2. RND-mix stage-two training and evaluation with replay and 3D conditions.
