@@ -197,9 +197,9 @@ class BaselineWMTrainer(Trainer):
                 end_frame_pixel = tensor_video[:, :, -num_ref_images:]
                 end_frame_pixel = np.array(self.video_processor.postprocess_video(end_frame_pixel, output_type='pil')[0])
                 end_depth = self.predict_depth(end_frame_pixel)
-                gray = end_depth.squeeze(0)  # 变成 (480, 640)
-                rgb = np.stack([gray] * 3, axis=-1)  # 变成 (480, 640, 3)
-                # 转为 PIL Image（可选）
+                gray = end_depth.squeeze(0)  # becomes (480, 640).
+                rgb = np.stack([gray] * 3, axis=-1)  # becomes (480, 640, 3).
+                # Convert to PIL Image (optional).
                 img = Image.fromarray(rgb)
                 depth_tensor = self.video_processor.preprocess_video(img).transpose(1,2)
                 if random.random() > 0.5:
