@@ -8,8 +8,12 @@ Method Pipeline:
 ![overview](./asserts/pipeline.png)
 
 ## Demo
+
+World model as evaluator:
 ![demo](./asserts/teaser.gif)
 
+
+## Repository Layout
 
 This repository contains the training, preprocessing, and inference code for
 three iMaC workflows:
@@ -20,7 +24,6 @@ three iMaC workflows:
 
 This README is the reproducible entry point for running the released code.
 
-## Repository Layout
 
 ```text
 iMac/
