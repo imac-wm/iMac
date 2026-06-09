@@ -1,6 +1,7 @@
 # iMac: Translating Actions into Motion and Contact Images for Embodied World Models
 ### [Project Page](https://imac-wm.github.io/) | [Data](https://huggingface.co/datasets/open-gigaai/CVPR-2026-WorldModel-Track-Dataset)
 
+We present iMaC, an action-conditioned video generation model (world model) for embodied evaluation. We convert action controls into representative images for strong action following and dynamics modeling.
 
 ![overview](./asserts/pipeline.png)
 
