@@ -1,4 +1,10 @@
-# iMaC
+# iMac: Translating Actions into Motion and Contact Images for Embodied World Models
+### [Project Page](https://imac-wm.github.io/) | [Data](https://huggingface.co/datasets/open-gigaai/CVPR-2026-WorldModel-Track-Dataset)
+
+
+
+![demo](./assets/teaser.mp4)
+
 
 This repository contains the training, preprocessing, and inference code for
 three iMaC workflows:
