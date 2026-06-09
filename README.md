@@ -2,8 +2,13 @@
 ### [Project Page](https://imac-wm.github.io/) | [Data](https://huggingface.co/datasets/open-gigaai/CVPR-2026-WorldModel-Track-Dataset)
 
 
+## Method 
 
-![demo](./asserts/teaser.mp4)
+Method Pipeline:
+![overview](./asserts/pipeline.png)
+
+## Demo
+![demo](./asserts/teaser.gif)
 
 
 This repository contains the training, preprocessing, and inference code for
